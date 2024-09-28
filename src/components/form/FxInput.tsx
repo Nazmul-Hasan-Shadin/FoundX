@@ -4,15 +4,9 @@ import { Input } from "@nextui-org/input";
 
 import React from "react";
 import { useFormContext } from "react-hook-form";
+import { IInput } from "../../../types";
 
-interface Iprops {
-  variant?: "flat" | "bordered" | "faded" | "underlined";
-  size?: "sm" | "md" | "lg";
-  required?: boolean;
-  type?: string;
-  label?: string;
-  name: string;
-}
+interface Iprops extends IInput {}
 
 const FxInput = ({
   variant = "bordered",

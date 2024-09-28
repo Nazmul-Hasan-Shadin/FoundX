@@ -45,6 +45,14 @@
   dependencies:
     regenerator-runtime "^0.14.0"
 
+"@bangladeshi/bangladesh-address@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@bangladeshi/bangladesh-address/-/bangladesh-address-1.0.5.tgz#ca7ab947a95c08e096087cbc551b81d9d4278923"
+  integrity sha512-M0WHo/XQfQ8evBitI6DqdSLDETtT+XyXoInV8t2DdboreWRVjbVRGzCk7vf/1rjlNGFNtmN3e0d6ndyU3zloFg==
+  dependencies:
+    "@types/lodash" "^4.14.168"
+    lodash "^4.17.20"
+
 "@eslint-community/eslint-utils@^4.2.0", "@eslint-community/eslint-utils@^4.4.0":
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/@eslint-community/eslint-utils/-/eslint-utils-4.4.0.tgz#a23514e8fb9af1269d5f7788aa556798d61c6b59"
@@ -520,7 +528,7 @@
     "@react-types/datepicker" "3.7.4"
     "@react-types/shared" "3.23.1"
 
-"@nextui-org/date-picker@2.1.8":
+"@nextui-org/date-picker@2.1.8", "@nextui-org/date-picker@^2.1.8":
   version "2.1.8"
   resolved "https://registry.yarnpkg.com/@nextui-org/date-picker/-/date-picker-2.1.8.tgz#6a3c343e9f34e6e0197d441dcd67b4c3496302b7"
   integrity sha512-pokAFcrf6AdM53QHf1EzvqVhj8imQRZHWitK9eZPtIdGzJzx28dW0ir7ID0lQFMiNNIQTesSpBLzedTawbcJrg==
@@ -746,7 +754,7 @@
     "@react-types/menu" "3.9.9"
     "@react-types/shared" "3.23.1"
 
-"@nextui-org/modal@2.0.41":
+"@nextui-org/modal@2.0.41", "@nextui-org/modal@^2.0.41":
   version "2.0.41"
   resolved "https://registry.yarnpkg.com/@nextui-org/modal/-/modal-2.0.41.tgz#3fba82661413236e9b41f3b4d6c50c3205d6292c"
   integrity sha512-Sirn319xAf7E4cZqvQ0o0Vd3Xqy0FRSuhOTwp8dALMGTMY61c2nIyurgVCNP6hh8dMvMT7zQEPP9/LE0boFCEQ==
@@ -2893,6 +2901,11 @@
   version "4.17.7"
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.17.7.tgz#2f776bcb53adc9e13b2c0dfd493dfcbd7de43612"
   integrity sha512-8wTvZawATi/lsmNu10/j2hk1KEP0IvjubqPE3cu1Xz7xfXXt5oCq3SNUz4fMIP4XGF9Ky+Ue2tBA3hcS7LSBlA==
+
+"@types/lodash@^4.14.168":
+  version "4.17.9"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.17.9.tgz#0dc4902c229f6b8e2ac5456522104d7b1a230290"
+  integrity sha512-w9iWudx1XWOHW5lQRS9iKpK/XuRhnN+0T7HvdCCd802FYkT1AMTnxndJHGrNJwRoRHkslGr4S29tjm1cT7x/7w==
 
 "@types/node@20.5.7":
   version "20.5.7"
@@ -5103,6 +5116,11 @@ levn@^0.4.1:
     prelude-ls "^1.2.1"
     type-check "~0.4.0"
 
+lightgallery@^2.7.2:
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/lightgallery/-/lightgallery-2.7.2.tgz#9309216986fbce60602b851e1ef80cf40769c3d3"
+  integrity sha512-Ewdcg9UPDqV0HGZeD7wNE4uYejwH2u0fMo5VAr6GHzlPYlhItJvjhLTR0cL0V1HjhMsH39PAom9iv69ewitLWw==
+
 lilconfig@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/lilconfig/-/lilconfig-2.1.0.tgz#78e23ac89ebb7e1bfbf25b18043de756548e7f52"
@@ -5160,7 +5178,7 @@ lodash.omit@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.omit/-/lodash.omit-4.5.0.tgz#6eb19ae5a1ee1dd9df0b969e66ce0b7fa30b5e60"
   integrity sha512-XeqSp49hNGmlkj2EJlfrQFIzQ6lXdNro9sddtQzcJY8QaoC2GO0DT7xaIokHeyM+mIT0mPMlPvkYzg2xCuHdZg==
 
-lodash@^4.17.4:
+lodash@^4.17.20, lodash@^4.17.4:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
