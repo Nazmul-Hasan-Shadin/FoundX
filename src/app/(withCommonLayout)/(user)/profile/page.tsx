@@ -1,11 +1,19 @@
-import React from "react";
+import Post from "@/src/components/Ui/Post";
+import { getMyPosts } from "@/src/services/post";
+import { IPost } from "../../../../../types";
 
-const Profile = () => {
+export default async function page() {
+  const { data } = await getMyPosts();
+
   return (
-    <div>
-      <h2>user profile</h2>
-    </div>
+    <>
+      {data?.length ? (
+        data?.map((post: IPost) => <Post key={post._id} post={post} />)
+      ) : (
+        <div className="flex min-h-screen w-full items-center justify-center rounded-md bg-default-100">
+          <h1 className="text-4xl">No Post Found!</h1>
+        </div>
+      )}
+    </>
   );
-};
-
-export default Profile;
+}

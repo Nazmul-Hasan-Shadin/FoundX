@@ -11,6 +11,6 @@ export const getRecentPosts = async () => {
     `${envConfig.baseApi}/items?sortBy=-title&limit=3`,
     fetchOption
   );
-  await delay(5000);
+
   return res.json();
 };
